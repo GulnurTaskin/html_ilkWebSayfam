@@ -5,15 +5,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Contact</title>
 </head>
-<body bgcolor="lightblue">
-    <center>
+
+  
 
     <div class="header"> 
         <div class="name"> <h2>GULNUR TASKIN <i>Testeur Logiciel</i></h2></div>
         <div class="menu"> <a href="index.html">ACCEUIL </a>|<a href="resume.html" target="_blank"> RESUME</a> | <a href="contact.html" target="_blank">CONTACT </a></div> 
     </div>
 <br><br><br><br>
-<div class="content"> CONTENT </div>
+<div class="content"> 
+<form action="saveDB.php">
+<div class="form-row">
+    <div><label for="firstname"> PRENOM </label></div>
+    <input type="text" name="firstname" id="">
+</div>
+<div class="form-row">
+    <div><label for="lastname"> NOM </label></div>
+    <input type="text" name="lastname" id="">
+</div>
+<div class="form-row">
+    <div><label for="email"> COURIER </label></div>
+    <input type="email" name="email" id="">
+</div>
+<div class="form-row">
+    <div><label for="phone"> PORTABLE </label></div>
+    <input type="tel" name="phone" id="">
+</div>
+<div class="form-row">
+    <div><label for="message"> MESSAGE </label></div>
+    <textarea name="message" id="" cols="20" rows="10"></textarea>
+</div>
+<div><button type="submit"> ENVOYER </button></div>
+</form>
+<!-- HTML dosyalarina yorum eklemek icin VSCODE kullanirken Shift+Alt+A tuslarina basilirsa otomatik gelir-->
+
+
+
+
+
+
+
+</div>
 <br><br><br>
 <div class="footer"> 
     <div class="phone"><a href="tel: 0610813321"> PORTABLE</a> </div>
@@ -22,8 +54,5 @@
     <div class="copyright"> copyright © 2023</div> 
 </div>
     <!-- Auto save kapali ise Ctrl+S tuslarina basinca dosyayi kaydeder-->
-
-
-</center>
 </body>
 </html>
